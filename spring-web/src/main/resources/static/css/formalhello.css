@@ -1,0 +1,84 @@
+
+.b1{
+    position: absolute;
+    top:425px;
+    left: 80px;
+
+    background-color:#483D8B;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.b2{
+    position: absolute;
+    top:425px;
+    left: 300px;
+
+    background-color:#483D8B;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.b3{
+    position: absolute;
+    top:425px;
+    left: 530px;
+
+    background-color:#483D8B;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.b4{
+    position: absolute;
+    top:425px;
+    left: 750px;
+
+    background-color:#483D8B;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.b5{
+    position: absolute;
+    top:25px;
+    right: 80px;
+
+    background-color:#483D8B;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6px;
+}
+
+body.myformalhello{
+    width:100%;
+    height:100%;
+    background:url('../img/4-formalhello.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}

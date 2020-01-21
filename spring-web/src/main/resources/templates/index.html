@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="css/register.css"/>
+  </head>
+
+
+  <body class="myindex">
+
+
+    <form method="post">
+
+      <div>
+<!--        <label>输入用户ID：</label>-->
+        <input class="iid" name="id" type="text" id="userid" placeholder="please input id">
+      </div>
+
+      <div>
+<!--        <label>输入密码：</label>-->
+        <input class="ipassword" name="password" type="text" id="usepword" placeholder="please input password">
+      </div>
+
+      <div>
+        <button class="createuser" name="action" type="submit" value="login">&nbsp;用户登录 </button>
+      </div>
+
+      <div>
+        <button class="backtohello" name="action" type="submit" value="backhello"> 返回主界面 </button>
+      </div>
+
+      <td th:switch = "${sendInfo}" >
+            <div th:case="3">
+        <p class="reinfo">用户不存在，登录失败！</p>
+      </div>
+            <div th:case="4">
+        <p class="reinfo">密码错误，登录失败！</p>
+      </div>
+      </div>
+            <div th:case="5">
+        <p class="reinfo">欢迎用户，登录成功！</p>
+      </div>
+      </td>
+
+    </form>
+
+  </body>
+
+
+</html>

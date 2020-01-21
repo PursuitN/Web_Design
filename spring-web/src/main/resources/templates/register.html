@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/register.css"/>
+</head>
+
+
+<body class="myregister">
+
+    <form method="post">
+
+        <div>
+<!--            <label>输入用户ID：</label>-->
+            <input class="login1" name="id" type="text" id="userid" placeholder="please input id">
+        </div>
+
+        <div>
+<!--            <label>输入用户名：</label>-->
+            <input class="login2" name="name" type="text" id="usename" placeholder="please input name">
+        </div>
+
+        <div>
+<!--            <label>输入密码：</label>-->
+            <input class="login3" name="password" type="text" id="usepword" placeholder="please input password">
+        </div>
+
+        <div>
+            <button class="createuser" name="action" type="submit" value="register">&nbsp;注册新用户 </button>
+        </div>
+
+        <div>
+            <button class="backtohello" name="action" type="submit" value="backhello"> 返回主界面 </button>
+        </div>
+
+        <td th:switch = "${sendInfo}" >
+            <div th:case="1">
+                <p class="reinfo">欢迎新用户，注册成功！</p>
+            </div>
+            <div th:case="2">
+                <p class="reinfo">用户已存在，注册失败！</p>
+            </div>
+        </td>
+
+    </form>
+
+</body>
+
+
+</html>

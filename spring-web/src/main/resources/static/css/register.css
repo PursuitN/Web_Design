@@ -1,0 +1,122 @@
+
+body.myregister{
+    width:100%;
+    height:100%;
+    background:url('../img/2-reigster.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+
+.login1{
+    position: absolute;
+    top:349px;
+    left: 460px;
+
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.login2{
+    position: absolute;
+    top:409px;
+    left: 460px;
+
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.login3{
+    position: absolute;
+    top:469px;
+    left: 460px;
+
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.createuser{
+    position: absolute;
+    top:515px;
+    right: 460px;
+
+    background-color:#483D8B;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.backtohello{
+    position: absolute;
+    top:515px;
+    left: 530px;
+
+    background-color:#483D8B;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.reinfo{
+    position: absolute;
+    top:580px;
+    left: 430px;
+    color: white;
+    padding: 5px 16px;
+    border: 2px solid black;
+}
+
+body.myindex{
+    width:100%;
+    height:100%;
+    background:url('../img/3-login.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+
+.iid{
+    position: absolute;
+    top:370px;
+    left: 460px;
+
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.ipassword{
+    position: absolute;
+    top:440px;
+    left: 460px;
+
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}

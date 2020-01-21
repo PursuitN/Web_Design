@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>addAPP</title>
+    <link rel="stylesheet" type="text/css" href="css/addapp.css"/>
+</head>
+
+
+<!--<body   background="img/2_submit_classify01.png"-->
+<!--        style=" background-repeat:no-repeat ;-->
+<!--        background-size:100% 100%;-->
+<!--        background-attachment: fixed;">-->
+<body class="add01">
+
+<!--    <p>this is addApp html 提交APP界面</p>-->
+
+    <!--<img src="img/2_submit_classify01.png" height="100%" width="100%"/>-->
+    <!-- <div id="web_bg" style="background-image: url(img/2_submit_classify01.png)"></div>-->
+
+
+    <form method="post">
+
+        <div>
+<!--            <label>&nbsp;适用范围：&nbsp;</label>-->
+            <select class="choose01" name="apprange">
+                <option value="基础共性工业APP">基础共性工业APP</option>
+                <option value="行业通用工业APP">行业通用工业APP</option>
+                <option value="企业专用工业APP">企业专用工业APP</option>
+                <option value="其他工业APP">其他工业APP</option>
+            </select>
+        </div>
+
+        <div>
+            <button class="next" name="action" type="submit" value="next"> Next </button>
+        </div>
+
+    </form>
+
+
+
+</body>
+
+
+</html>

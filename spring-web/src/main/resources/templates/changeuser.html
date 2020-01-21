@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>changeuser</title>
+    <link rel="stylesheet" type="text/css" href="css/changeuser.css"/>
+</head>
+
+
+<body class="changeuser">
+
+<!--<h3 th:text="${sinfo}"></h3>-->
+
+
+<form method="post">
+
+    <div>
+<!--        <label>当前用户ID（不可更改）：</label>-->
+        <p class="c1" th:text="${iid}"></p>
+    </div>
+
+    <div>
+<!--        <label>当前用户名：</label>-->
+        <p class="c2" th:text="${nname}"></p>
+<!--        <label>修改用户名：</label>-->
+        <input class="c3" name="name" type="text" id="usename" placeholder="new name here" required>
+    </div>
+
+    <div>
+<!--        <label>当前密码：</label>-->
+        <p class="c4" th:text="${ppassword}"></p>
+<!--        <label>输入密码：</label>-->
+        <input class="c5" name="password" type="text" id="usepword" placeholder="new password here" required>
+    </div>
+
+    <div>
+        <button class="next" name="action" type="submit" value="next"> Confirm </button>
+    </div>
+    </form>
+
+</body>
+
+
+</html>
